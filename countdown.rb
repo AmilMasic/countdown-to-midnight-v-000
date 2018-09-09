@@ -1,7 +1,7 @@
 #write your code here
 require "pry"
 def countdown(timer)
-  binding.pry
+  # binding.pry
   while timer > 0
 
     puts "#{timer} SECOND(S)!"
