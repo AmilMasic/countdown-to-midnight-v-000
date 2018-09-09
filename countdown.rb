@@ -4,10 +4,10 @@ def countdown(timer)
   # binding.pry
   while timer > 0
 
-    puts "#{timer} SECOND(S)!"
+    print "#{timer} SECOND(S)!"
     timer -= 1
     if timer == 0
-      puts "HAPPY NEW YEAR!"
+      print "HAPPY NEW YEAR!"
     end
   end
 end
