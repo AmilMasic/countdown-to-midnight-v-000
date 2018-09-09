@@ -14,5 +14,5 @@ end
 
 
 
-def countdown
+def countdown(timer)
 end
