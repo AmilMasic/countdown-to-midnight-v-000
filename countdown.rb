@@ -1,12 +1,12 @@
 #write your code here
 require "pry"
-def countdown
+def countdown(timer)
 
-  while countdown > 0
+  while timer > 0
     binding.pry
-    puts "#{countdown} SECOND(S)!"
-    countdown -= 1
-    if countdown == 0
+    puts "#{timer} SECOND(S)!"
+    timer -= 1
+    if timer == 0
       puts "HAPPY NEW YEAR!"
     end
   end
